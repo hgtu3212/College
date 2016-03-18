@@ -1,0 +1,112 @@
+@media (max-width: 500px){
+body {
+	
+	font-family: helvetica, sans-serif;
+	background-size: cover;
+	background: url("https://www.dur.ac.uk/images/colleges/Individual_colleges/Castle/barFB.jpg");
+    margin: 0 auto;
+    background: #232323;
+}
+}
+
+
+     li {display: block;
+     	padding: 5px;
+     }
+
+     h1{ text-align:center;
+     	font-size: 30px;
+     	margin: -70px 0 0 0;
+     } 
+   ul {
+     	padding: 10px;
+     	background: rgba(0, 0, 0, 0.5);
+     }
+
+     img{
+     	margin: 40px 0px 0px 0px;
+     	border: 7px solid;
+     	border-radius: 20px;
+     }
+
+     div { height: 200px ;
+     	max-width: 500px;
+     	padding: 20px;
+     	margin: 40px 0 0 0 ;
+     	background-size:cover;
+     	position: relative;
+     }
+    .Hat {background-image: url('https://www.dur.ac.uk/images/event.durham/colleges/hatfield/Exterior500w.jpg');
+}
+    .Cas {background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b3/Durham_Castle_Eingang.jpg');
+}
+    .Cut {background-image: url('https://static-secure.guim.co.uk/sys-images/Guardian/Pix/pictures/2012/11/22/1353582499527/Durham-University-library-010.jpg');
+}
+    .Ch  {background-image: url('http://www.meetingvenues.com/wp-content/uploads/2015/04/Exterior580.jpg');
+}
+    .Jo  {background-image: url('https://community.dur.ac.uk/cranmer.hall/wp-content/uploads/2012/06/St-Johns-400x200.jpg');
+}
+  
+  P {
+  	background-color:-webkit-linear-gradient(bottom, rgba(0,0,0, 1), rgba(0,0,0,.4));
+  	color: rgba(0, 40, 90, 1);
+  	padding: 10px;
+  	text-align: justify;
+  	line-height: 28px;
+  	position: absolute;
+  	bottom: 0;
+  	margin: auto;
+  	text-align:right;
+    font-weight: 900;
+    font-family:'GoodFootRegular';
+    src: url('goodfoot.eot');
+    src: local('Good Foot'), local('GoodFoot'), 
+    url('goodfoot.woff') format('woff'),
+    url('goodfoot.ttf') format('truetype');
+    text-shadow:6px -4px 15px #db0b27;
+  }
+   .p{font:40px normal italic GoodFootRegular;}
+   .Col{
+-webkit-animation: cssAnimation 5s 4 ease-in-out;
+-moz-animation: cssAnimation 5s 4 ease-in-out;
+-o-animation: cssAnimation 5s 4 ease-in-out;
+}
+@-webkit-keyframes cssAnimation {
+from { -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+to { -webkit-transform: rotate(0deg) scale(1.5) skew(25deg) translate(300px); }
+}
+@-moz-keyframes cssAnimation {
+from { -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+to { -moz-transform: rotate(0deg) scale(1.5) skew(25deg) translate(300px); }
+}
+@-o-keyframes cssAnimation {
+from { -o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+to { -o-transform: rotate(0deg) scale(1.5) skew(25deg) translate(300px); }
+}
+
+nav ul {
+	margin: 0;
+	padding: 0 0 0 15px;
+	display: inline;
+}
+
+nav li {
+	background: black;
+	color:white;
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+}
+
+nav li a {
+	color: white;
+}
+header{ background: ;
+     	text-align: center;
+     	color: white;
+     	padding: 5px 15px;
+     }
+header h1{
+	 margin: 0;
+	 display: inline;
+}
